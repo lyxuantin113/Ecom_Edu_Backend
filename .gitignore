@@ -1,0 +1,36 @@
+# 💾 Loại bỏ thư mục node_modules (rất quan trọng)
+node_modules/
+
+# 🛑 Bỏ các file lock và cache
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 🛠 Loại bỏ các file môi trường
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 🔥 Loại bỏ các file build
+dist/
+build/
+
+# 💻 IDE & Editor config (nếu bạn dùng VS Code, WebStorm, ...)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 📦 Loại bỏ các log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# 🚀 Loại bỏ các file tạm khi deploy
+.npm/
+.vercel/
+.netlify/
